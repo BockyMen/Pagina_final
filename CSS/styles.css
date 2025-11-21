@@ -6,8 +6,77 @@
 body{
     background-color: rgb(176, 211, 251);
 }
+#Banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+#three-1{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+}
+#navbar{
+    width: 100vw;
+    position: relative;
+    height: 6vh;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#nav a{
+    padding-left: 3rem;
+    font-size: 1rem;
+}
+.texto-sec-1{
+    text-align: center;
+    align-items: center;
+}
+h1{
+    font-size: 3rem;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+h2{
+    font-size: 2rem;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+p{
+    font-size: 1rem;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.lista{
+    font-size: 1rem;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
 
-/* --- Footer ---*/
+}
+#info{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+}
+#contador_animado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column
+}
 
 footer.foot-carousel {
     background-color: rgb(43, 49, 52);
