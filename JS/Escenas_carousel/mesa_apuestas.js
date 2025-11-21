@@ -47,7 +47,7 @@ const modelos = {
     'maquina_lasvegas': { ruta: './JS/Escenas_carousel/models/source/maquina_vegas/maquina_lasvegas.gltf', x: 3, y: 3, z: 3, camX: 4.5, camY: 1, camZ: 6, amb_l: 2, direct_l: 2 },
     'messi': { ruta: './JS/Escenas_carousel/models/source/messi/messi.gltf', x: 4, y: 4, z: 4, camX: 3, camY: 1.1, camZ: 3.5, amb_l: 2, direct_l: 5 },
     'poker_jugando': { ruta: './JS/Escenas_carousel/models/source/poker_jugando/poker_jugando.gltf', x: 1, y: 1, z: 1, camX: 2, camY: 1.5, camZ: 3, amb_l: 2.8, direct_l: 10 },
-    'smartphone': { ruta: './JS/Escenas_carousel/models/source/smartphone/smartphone.gltf', x: 22, y: 22, z: 22, camX: 3, camY: 2.8, camZ: 3.5, amb_l: 2.8, direct_l: 10 },
+    'smartphone': { ruta: './JS/Escenas_carousel/models/source/smartphone/smartphone.gltf', x: 22, y: 22, z: 22, camX: 3, camY: 3.2, camZ: 3.5, amb_l: 2.8, direct_l: 10 },
 };
 
 crearEscena('maquina_lasvegas', modelos['maquina_lasvegas'].ruta,
