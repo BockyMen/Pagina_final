@@ -1,7 +1,28 @@
 @import "tailwindcss";
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url("../Sourse/IMG/azul.jpg");
+    opacity: 0.9;
+}
+
 body {
-    background-image: url();
+    background-image: url("../Sourse/IMG/Fondo.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+
+.imagen {
+    width: 600px;
+    height: auto;
+    margin-left: 50px;
+    margin-top: 20px;
+
 }
 
 /* Footer */
@@ -57,4 +78,10 @@ footer.foot-carousel {
     font-size: 10px;
     color: #aaa;
     letter-spacing: 0.12em;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
