@@ -267,3 +267,112 @@ footer.foot-carousel {
     color: #aaa;
     letter-spacing: 0.13em;
 }
+
+/*Responsive*/
+
+@media (max-width: 992px) {
+
+    h1 {
+        font-size: 2.4rem;
+    }
+
+    .info-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text, .image {
+        max-width: 100%;
+    }
+
+    #navbar img {
+        width: 10%;
+    }
+
+    #info {
+        padding: 30px;
+    }
+
+    .text h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    #nav {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .logo {
+        width: 18%;
+    }
+
+    .ayuda, .entender {
+        width: 12%;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .texto-sec-1 p {
+        font-size: 1rem;
+    }
+
+    .lista {
+        padding-left: 0;
+    }
+
+    #info {
+        padding: 25px;
+    }
+
+    .contador {
+        width: 80px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    #navbar {
+        height: auto;
+        padding: 10px 0;
+    }
+
+    #nav a img {
+        width: 20%;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .texto-sec-1 p {
+        font-size: .9rem;
+    }
+
+    .text h2 {
+        font-size: 1.6rem;
+    }
+
+    .text p {
+        font-size: 1rem;
+    }
+
+    .lista {
+        font-size: 0.9rem;
+    }
+
+    .image img {
+        width: 100%;
+    }
+
+    #info {
+        padding: 20px;
+    }
+
+}

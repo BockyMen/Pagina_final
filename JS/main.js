@@ -81,6 +81,19 @@ function onMouseMove(event){
 
 window.addEventListener("mousemove", onMouseMove, false);
 
+window.addEventListener("resize", () => {
+
+    const width = contenedor.clientWidth;
+    const height = contenedor.clientHeight;
+
+    // Actualizar renderer
+    renderer.setSize(width, height);
+
+    // Actualizar cámara
+    camera.aspect = width / height;
+    camera.updateProjectionMatrix();
+});
+
 camera.position.set(1.2, 0.7, 1.6);
 camera.rotation.set(-0.35, 0.55, 0.15);
 
