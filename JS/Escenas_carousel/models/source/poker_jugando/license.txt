@@ -1,0 +1,11 @@
+Model Information:
+* title:	card game
+* source:	https://sketchfab.com/3d-models/card-game-34ce13068ba74d70be89c9c18dacefd1
+* author:	Douglas0202000 (https://sketchfab.com/Douglas0202000)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "card game" (https://sketchfab.com/3d-models/card-game-34ce13068ba74d70be89c9c18dacefd1) by Douglas0202000 (https://sketchfab.com/Douglas0202000) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
