@@ -14,6 +14,15 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
         integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
         crossorigin="anonymous"></script>
+
+    <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.172.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.172.0/examples/jsm/"
+      }
+    }
+    </script>
 </head>
 
 <body class="carousel">
@@ -43,22 +52,22 @@
 
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./Archivos/IMG/battlefieldV.png" class="d-block w-100" alt="Battlefield V">
-                    <h1>Battlefield V</h1>
+                    <div id="maquina_lasvegas" style="height: 300px; overflow: hidden;"></div>
+                    <h1>Adiccion a los casinos</h1>
                 </div>
 
                 <div class="carousel-item">
-                    <img src="./Archivos/IMG/titanfall.jpg" class="d-block w-100" alt="Titan Fall">
+                    <div id="maquina_lasvegas_2" style="height: 300px; overflow: hidden;"></div>
                     <h1>Titan Fall</h1>
                 </div>
 
                 <div class="carousel-item">
-                    <img src="./Archivos/IMG/deadspace.jpg" class="d-block w-100" alt="Dead Space">
+                    <div id="maquina_lasvegas_3" style="height: 300px; overflow: hidden;"></div>
                     <h1>Dead Space</h1>
                 </div>
 
                 <div class="carousel-item">
-                    <img src="./Archivos/IMG/masseffect.jpg" class="d-block w-100" alt="Mass Effect 3">
+                    <div id="maquina_lasvegas_4" style="height: 300px; overflow: hidden;"></div>
                     <h1>Mass Effect 3</h1>
                 </div>
             </div>
@@ -76,6 +85,7 @@
             </button>
 
         </div>
+        <script type="module" src="./JS/Escenas carousel/mesa_apuestas.js"></script>
     </main>
 
 </body>
