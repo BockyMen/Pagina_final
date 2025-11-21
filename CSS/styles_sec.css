@@ -164,8 +164,57 @@ main.main-carousel {
     line-height: 1.5;
     margin-bottom: 0;
     color: #c8c8c8;
-    
 }
+
+.texto-slide {
+    position: absolute;
+    top: 50%;
+    right: 250px; 
+    transform: translateY(-50%);
+    text-align: left; 
+    z-index: 10;
+    max-width: 500px; 
+    color: white;
+    font-size: 1.2rem; 
+}
+
+.texto-slide h1 {
+    font-size: 3.8rem;
+    margin-bottom: 25px;
+}
+
+.texto-slide h2 {
+    font-size: 2rem;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.texto-slide p {
+    font-size: 1.3rem;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.texto-slide ul {
+    list-style-type: disc;
+    padding-left: 25px;
+    margin: 0 150px 0 0;
+    text-align: left;
+}
+
+.texto-slide ul li {
+    margin-bottom: 12px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.texto-slide ul li::marker {
+    color: #00adee;
+}
+
+
 
 /* --- Footer ---*/
 
