@@ -77,7 +77,64 @@ p{
     align-content: center;
     flex-direction: column
 }
+/* Secccion info */
 
+#info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    text-align: left;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 40px 30px;
+    background-color: #FF0A17;
+    border-radius: 12px;
+    color: #ffffff; 
+}
+
+#info .text {
+    margin-bottom: 30px;
+}
+
+#info h2 {
+    font-size: 2.4rem;
+    margin-bottom: 15px;
+    color: #1A2B4C; 
+    font-family: 'Playfair Display', serif;
+}
+
+#info p {
+    font-size: 1.3rem;
+    line-height: 1.8;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#info .lista {
+    font-size: 1.2rem;
+    margin: 0;
+    padding-left: 40px; 
+    max-width: 700px;
+    text-align: left;
+    list-style-type: disc;
+}
+
+#info .lista li {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    color: #ffffff;
+    position: relative;
+    padding-left: 10px;
+}
+
+#info .lista li::marker {
+    color: #1A2B4C; 
+    font-size: 1.3rem;
+}
+
+
+
+/* Footer */
 footer.foot-carousel {
     background-color: rgb(43, 49, 52);
     color: #d1d1d1;
