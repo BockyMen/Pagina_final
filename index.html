@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/styles.css">
     <title>Luck Trap</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -32,7 +35,7 @@
                 Cada apuesta activa la misma zona de recompensa que otras adicciones.
                 El problema surge cuando apostar deja de ser entretenimiento y se convierte en una necesidad.</p>
         </div>
-        <ul>
+        <ul class="lista">
             <li>La ilusión de “recuperar lo perdido</li>
             <li>Sensación de adrenalina constante</li>
             <li>Publicidad y accesibilidad 24/7</li>
@@ -47,7 +50,33 @@
             <p>El jugador adicto pierde en promedio al año:</p>
         </div>
         <div class="contador" id="contador">
+            <script>
+                let contador = 1;
+                let limite = 35;
 
+                const contadorHTML = document.getElementById("contador");
+                const mensajeHTML = document.getElementById("mensaje");
+
+                function animarContador() {
+                    contadorHTML.textContent = contador;
+
+                    // Efecto de "latido" visual
+                    contadorHTML.style.transform = "scale(1.1)";
+                    setTimeout(() => {
+                        contadorHTML.style.transform = "scale(1)";
+                    }, 100);
+
+                    contador++;
+
+                    if (contador <= limite) {
+                        requestAnimationFrame(animarContador);
+                    } else {
+                        mensajeHTML.style.opacity = 1;
+                    }
+                }
+
+                requestAnimationFrame(animarContador);
+            </script>
         </div>
         <div class="texto2-sec-3">
             <p>Este valor puede variar según hábitos, ingresos y acceso a plataformas de apuestas</p>
@@ -85,4 +114,5 @@
 }
 </script>
     <script type="module" src="./JS/main.js"></script>
+    
 </html>
