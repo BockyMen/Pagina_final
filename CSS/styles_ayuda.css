@@ -85,3 +85,85 @@ input[type=number]::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+
+@media (max-width: 1280px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    .imagen {
+        width: 450px;
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 1024px) {
+    header {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .py-20 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .imagen {
+        width: 380px;
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 900px) {
+    .py-20 {
+        flex-direction: column;
+        padding-left: 0;
+        align-items: center;
+    }
+
+    .max-w-2xl {
+        width: 90%;
+    }
+
+    .imagen {
+        margin: 30px auto 0 auto;
+        width: 75%;
+    }
+}
+
+@media (max-width: 640px) {
+    header {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    .imagen {
+        width: 90%;
+    }
+
+    .w-full.shadow-lg.rounded-lg.p-6 {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    .max-w-2xl {
+        padding: 20px;
+    }
+
+    .imagen {
+        width: 100%;
+    }
+}
