@@ -8,6 +8,7 @@ const renderer = new THREE.WebGLRenderer(`three`);
 renderer.setSize( contenedor.clientWidth, contenedor.clientHeight );
 renderer.setAnimationLoop( animate );
 contenedor.appendChild( renderer.domElement );
+renderer.setClearColor(0x000000, 0);
 
 const geometry = new THREE.BoxGeometry( 1, 1, 1 );
 const material = new THREE.MeshBasicMaterial( { color: 0xBD2000 } );
@@ -80,7 +81,7 @@ function onMouseMove(event){
 
 window.addEventListener("mousemove", onMouseMove, false);
 
-camera.position.set(1.4, 1.0, 2.2);
+camera.position.set(1.2, 0.7, 1.6);
 camera.rotation.set(-0.35, 0.55, 0.15);
 
 

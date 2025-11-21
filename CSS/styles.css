@@ -31,6 +31,7 @@ body{
     align-content: center;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 40px;
 }
 #nav a{
     padding-left: 1rem;
@@ -38,8 +39,23 @@ body{
     align-items: center;
     text-align: center;
 }
-#nav img{
-    width: 5%;
+
+.logo{
+    width: 8%;
+    height: 3%;
+    align-items: center;
+    text-align: center;
+    margin: 15px;
+}
+.entender{
+    width: 4%;
+    height: 3%;
+    align-items: center;
+    text-align: center;
+    margin: 15px;
+}
+.ayuda{
+    width: 4%;
     height: 3%;
     align-items: center;
     text-align: center;
@@ -50,6 +66,8 @@ body{
     text-align: center;
     align-items: center;
     color: #ffffff;
+    background-color: #ff686879;
+    border-radius: 10px;
 }
 h1{
     font-size: 3rem;
