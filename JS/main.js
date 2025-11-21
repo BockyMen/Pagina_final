@@ -1,6 +1,4 @@
 import * as THREE from 'three';
-import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
-import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 
 const scene = new THREE.Scene();
 const contenedor = document.getElementById('three-1')
@@ -10,11 +8,9 @@ const renderer = new THREE.WebGLRenderer(`three`);
 renderer.setSize( contenedor.clientWidth, contenedor.clientHeight );
 renderer.setAnimationLoop( animate );
 contenedor.appendChild( renderer.domElement );
-const controls = new OrbitControls( camera, renderer.domElement );
-const loader = new GLTFLoader();
 
 const geometry = new THREE.BoxGeometry( 1, 1, 1 );
-const material = new THREE.MeshBasicMaterial( { color: 0xBD2000 } );
+const material = new THREE.MeshBasicMaterial( { color: 0xBD2000,  } );
 const cube = new THREE.Mesh( geometry, material );
 scene.add( cube );
 cube.position.set(-0.5,0,0)
@@ -54,6 +50,22 @@ const sphere7 = new THREE.Mesh( geometry3, material3 );
 scene.add( sphere7 );
 sphere7.position.set(-0.2,-0.3,0.5)
 
+const sphere8 = new THREE.Mesh( geometry3, material3 );
+scene.add( sphere8 );
+sphere8.position.set(0.95,0.2,0)
+
+const sphere9 = new THREE.Mesh( geometry3, material3 );
+scene.add( sphere9 );
+sphere9.position.set(-0.5,0.5,0)
+
+const sphere10 = new THREE.Mesh( geometry3, material3 );
+scene.add( sphere10 );
+sphere10.position.set(0.55,0.6,0.3)
+
+const sphere11 = new THREE.Mesh( geometry3, material3 );
+scene.add( sphere11 );
+sphere11.position.set(0,0.3,-0.3)
+
 const raycaster = new THREE.Raycaster();
 const mouse = new THREE.Vector2(1, 1);
 var isHover = false;
@@ -74,7 +86,9 @@ window.addEventListener("scroll", () => {
     cube.position.y=scrollPosition
 });
 
-camera.position.z = 2;
+camera.position.set(1.2, 0.8, 2.0);
+camera.rotation.set(-0.35, 0.55, 0.15);
+
 
 function animate() {
 
