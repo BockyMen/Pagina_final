@@ -51,8 +51,13 @@ h2{
 }
 p{
     font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer-carousel-mid{
     margin: 10px;
-    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer-carousel-bottom{
     font-family: 'Montserrat', sans-serif;
 }
 .lista{
@@ -61,7 +66,6 @@ p{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     list-style: none;
-
 }
 #info{
     display: flex;
@@ -141,7 +145,7 @@ footer.foot-carousel {
     font-family: "Arial", sans-serif;
     font-size: 12px;
     text-transform: uppercase;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.08rem;
     padding: 25px 40px;
     border-top: 1px solid #2f3437;
     margin-top: 0;
