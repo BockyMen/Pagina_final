@@ -29,7 +29,7 @@ body{
     justify-content: center;
     align-items: center;
     align-content: center;
-    background-color: rgba(255, 188, 143, 0.712);
+    background: linear-gradient(to bottom,rgba(65, 1, 1, 0.85),rgba(247, 93, 93, 0.637));
     border-radius: 8px;
 }
 #nav a{
