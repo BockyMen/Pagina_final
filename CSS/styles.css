@@ -92,11 +92,16 @@ h2{
 
 /* Sección info */
 
+/* Sección info */
+
 #info {
-    width: 100%;
-    padding: 60px 80px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 50px 60px;
+    border-radius: 20px;
     background: linear-gradient(135deg, #ffa6a6, #ff2525);
-    box-sizing: border-box;
+    box-shadow: 0px 10px 35px rgba(0,0,0,0.25);
     color: #1A2B4C;
 }
 
@@ -104,13 +109,12 @@ h2{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 50px;
+    gap: 40px;
     width: 100%;
 }
 
 .text {
     flex: 1;
-    min-width: 350px;
     max-width: 55%;
 }
 
@@ -152,6 +156,7 @@ h2{
     object-fit: cover;
     box-shadow: 0px 8px 20px rgba(0,0,0,0.15);
 }
+
 
 /* Footer */
 footer.foot-carousel {
