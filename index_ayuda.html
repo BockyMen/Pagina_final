@@ -1,12 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ayuda</title>
-    <script src="https://cdn.tailwindcss.com"></script> <!-- Tailwind vinculo, usarlo en pagina de inscripcion y sale  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./CSS/styles_ayuda.css">
 </head>
+
 <body>
-    
+    <h1>¿Buscas ayuda? Empieza aqui</h1>
+    <p>Si sientes que las apuestas estan afectando tu vida, llena este breve formulario. No es un diagnostico: es una
+        forma de reflexionar y buscar apoyo
+    </p>
+
+    <div class="min-h-screen bg-gray-100 p-6 flex items-center justify-center">
+        <div class="w-full max-w-2xl bg-white shadow-lg rounded-lg p-6">
+
+            <h2 class="text-3xl font-semibold text-gray-700 mb-4">Dinos tu experiencia</h2>
+
+            <form class="space-y-5">
+
+                <!-- Titulo -->
+                <div>
+                    <label class="block mb-1 text-gray-600 font-medium">Nombre</label>
+                    <input type="text"
+                        class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
+                        placeholder="Escribe tu nombre" />
+                </div>
+
+                <div>
+                    <label class="block mb-1 text-gray-600 font-medium">Edad</label>
+                    <input type="number"
+                        class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
+                        placeholder="Escribe tu edad" />
+                </div>
+
+                <!-- Contenido -->
+                <div>
+                    <label class="block mb-1 text-gray-600 font-medium">Contenido</label>
+                    <textarea rows="6"
+                        class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
+                        placeholder="Escribe el contenido del tema..."></textarea>
+                </div>
+
+                <!-- Boton -->
+                <button class="w-full py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition font-medium">
+                    Publicar tema
+                </button>
+
+            </form>
+        </div>
+    </div>
+
+    <footer class="foot-carousel">
+        <div class="footer-carousel-top">
+            <ul class="footer-carousel-links">
+                <li><a href="#">Ayuda</a></li>
+                <li><a href="#">Información legal y privacidad</a></li>
+                <li><a href="#">Responsabilidad social corporativa</a></li>
+                <li><a href="#">Actualizaciones del servicio online</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-carousel-mid">
+            <p>
+                Los productos digitales vendidos en determinados territorios incluirán el IVA o el GST,
+                según corresponda. Consulta las Condiciones de venta para más detalles.
+            </p>
+        </div>
+
+        <div class="footer-carousel-bottom">
+            <p>© 2025 ELECTRONIC ARTS INC.</p>
+        </div>
+    </footer>
 </body>
+
 </html>
