@@ -10,7 +10,7 @@ renderer.setAnimationLoop( animate );
 contenedor.appendChild( renderer.domElement );
 
 const geometry = new THREE.BoxGeometry( 1, 1, 1 );
-const material = new THREE.MeshBasicMaterial( { color: 0xBD2000,  } );
+const material = new THREE.MeshBasicMaterial( { color: 0xBD2000 } );
 const cube = new THREE.Mesh( geometry, material );
 scene.add( cube );
 cube.position.set(-0.5,0,0)
@@ -80,13 +80,7 @@ function onMouseMove(event){
 
 window.addEventListener("mousemove", onMouseMove, false);
 
-window.addEventListener("scroll", () => {
-    const scrollPosition = window.scrollY;
-
-    cube.position.y=scrollPosition
-});
-
-camera.position.set(1.2, 0.8, 2.0);
+camera.position.set(1.4, 1.0, 2.2);
 camera.rotation.set(-0.35, 0.55, 0.15);
 
 
