@@ -6,7 +6,36 @@
 body{
     background-color: rgb(176, 211, 251);
 }
-
+#Banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+#three-1{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+}
+#navbar{
+    width: 100vw;
+    position: relative;
+    height: 6vh;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#nav a{
+    padding-left: 2rem;
+}
+.texto-sec-1{
+    text-align: center;
+    align-items: center;
+}
 /* --- Footer ---*/
 
 footer.foot-carousel {
