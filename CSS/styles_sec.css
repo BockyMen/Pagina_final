@@ -224,7 +224,7 @@ footer.foot-carousel {
     font-family: "Arial", sans-serif;
     font-size: 12px;
     text-transform: uppercase;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.08rem;
     padding: 25px 40px;
     border-top: 1px solid #2f3437;
     margin-top: 0;
@@ -269,4 +269,10 @@ footer.foot-carousel {
     font-size: 10px;
     color: #aaa;
     letter-spacing: 0.12em;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
