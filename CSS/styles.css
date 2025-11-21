@@ -105,7 +105,7 @@ h2{
     margin: 60px auto;
     padding: 50px 60px;
     border-radius: 20px;
-    background: linear-gradient(135deg, #ffa6a6, #ff2525);
+    background: linear-gradient(135deg, #835c5c, #830a0a);
     box-shadow: 0px 10px 35px rgba(0,0,0,0.25);
     color: #1A2B4C;
 }
@@ -145,7 +145,7 @@ h2{
 }
 
 .lista li::marker {
-    color: #0A2A43;
+    color: #000508;
 }
 
 .image {
@@ -163,6 +163,7 @@ h2{
 }
 
 /* Seccion Contador*/
+
 #contador_animado{
     color: white;
     font-family: 'Montserrat', sans-serif;
