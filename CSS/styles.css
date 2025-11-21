@@ -92,8 +92,6 @@ h2{
 
 /* Sección info */
 
-/* Sección info */
-
 #info {
     width: 90%;
     max-width: 1200px;
@@ -209,5 +207,5 @@ footer.foot-carousel {
     margin-top: 10px;
     font-size: 10px;
     color: #aaa;
-    letter-spacing: 0.12em;
+    letter-spacing: 0.13em;
 }
