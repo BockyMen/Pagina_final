@@ -276,3 +276,182 @@ input[type=number]::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+
+
+@media (max-width: 1400px) {
+    .texto-slide {
+        right: 150px;
+        max-width: 420px;
+    }
+
+    .texto-slide h1 {
+        font-size: 3rem;
+    }
+
+    .texto-slide p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .texto-slide {
+        right: 100px;
+        max-width: 380px;
+    }
+
+    .texto-slide h1 {
+        font-size: 2.7rem;
+    }
+
+    .texto-slide h2 {
+        font-size: 1.8rem;
+    }
+
+    .texto-slide ul li {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .carousel-item {
+        padding-right: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .texto-slide {
+        position: static;
+        transform: none;
+        margin: 0 auto;
+        max-width: 85%;
+        text-align: center;
+    }
+
+    .texto-slide ul {
+        margin: 0 auto;
+        padding-left: 18px;
+        text-align: left;
+    }
+
+    .texto-slide h1 {
+        font-size: 2.4rem;
+    }
+
+    .texto-slide p {
+        font-size: 1.1rem;
+    }
+
+    #maquina_lasvegas,
+    #messi,
+    #poker_jugando,
+    #smartphone {
+        height: 55vh !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-ea {
+        padding: 10px 15px;
+    }
+
+    .Banner_compra {
+        font-size: 12px;
+    }
+
+    .btnuser {
+        padding: 4px 6px;
+    }
+
+    .texto-slide h1 {
+        font-size: 2rem;
+    }
+
+    .texto-slide p {
+        font-size: 1rem;
+    }
+
+    .texto-slide h2 {
+        font-size: 1.5rem;
+    }
+
+    .texto-slide ul li {
+        font-size: 0.95rem;
+    }
+
+    #maquina_lasvegas,
+    #messi,
+    #poker_jugando,
+    #smartphone {
+        height: 48vh !important;
+    }
+
+    footer.foot-carousel {
+        font-size: 10px;
+        padding: 20px;
+    }
+
+    .footer-carousel-links {
+        gap: 15px;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .texto-slide {
+        max-width: 90%;
+    }
+
+    .texto-slide h1 {
+        font-size: 1.6rem;
+    }
+
+    .texto-slide h2 {
+        font-size: 1.2rem;
+    }
+
+    .texto-slide p {
+        font-size: 0.9rem;
+    }
+
+    .texto-slide ul li {
+        font-size: 0.85rem;
+        margin-bottom: 8px;
+    }
+
+    #maquina_lasvegas,
+    #messi,
+    #poker_jugando,
+    #smartphone {
+        height: 42vh !important;
+    }
+
+    footer.foot-carousel {
+        text-align: center;
+    }
+
+    .footer-carousel-links {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 420px) {
+    .texto-slide h1 {
+        font-size: 1.35rem;
+    }
+
+    .texto-slide p {
+        font-size: 0.85rem;
+    }
+
+    .texto-slide h2 {
+        font-size: 1rem;
+    }
+
+    #maquina_lasvegas,
+    #messi,
+    #poker_jugando,
+    #smartphone {
+        height: 38vh !important;
+    }
+}
+
