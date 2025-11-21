@@ -41,16 +41,27 @@ h1{
     font-size: 3rem;
     margin: 10px;
     text-align: center;
+    font-family: 'Playfair Display', serif;
 }
 h2{
     font-size: 2rem;
     margin: 10px;
     text-align: center;
+    font-family: 'Playfair Display', serif;
 }
 p{
     font-size: 1rem;
     margin: 10px;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.lista{
+    font-size: 1rem;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+
 }
 #info{
     display: flex;
